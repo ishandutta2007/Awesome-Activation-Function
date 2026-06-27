@@ -37,7 +37,7 @@
   <path d="M 100 350 Q 500 350 600 200 T 1100 50" fill="none" stroke="url(#curve-grad)" stroke-width="8" stroke-linecap="round" opacity="0.8" />
   <path d="M 100 320 Q 550 320 600 220 T 1100 20" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 8" opacity="0.6" />
   <!-- Text -->
-  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="64" fill="#ffffff" letter-spacing="2">
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="62" fill="#ffffff" letter-spacing="2">
     AWESOME ACTIVATION FUNCTIONS
   </text>
   <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="22" fill="#94a3b8" letter-spacing="4">
