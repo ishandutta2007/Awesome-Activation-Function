@@ -10,7 +10,11 @@ Activation functions are fundamental mathematical operators embedded within the 
 The technical progression of activation nodes has transitioned from rigid, binary step gates to piece-wise linear maps, smooth stochastic approximations, and high-capacity dual-tower gated linear transformations.
 
 ```mermaid
-[Binary Step (Perceptron, 1958)] ---> [Saturating Sigmoids (1980s)] ---> [Piece-Wise Linear (ReLU, 2012)] ---> [Gated Smooth Linear (SwiGLU, 2020s+)](All-or-Nothing Hard Gating)           (Catastrophic Gradient Vanishing)      (Sparsity Fix / Dying Neurons)          (Bilinear Multi-Path Routing)
+flowchart LR
+    A["Binary Step (Perceptron, 1958)<br/>(All-or-Nothing Hard Gating)"]
+    --> B["Saturating Sigmoids (1980s)<br/>(Catastrophic Gradient Vanishing)"]
+    --> C["Piece-Wise Linear (ReLU, 2012)<br/>(Sparsity Fix / Dying Neurons)"]
+    --> D["Gated Smooth Linear (SwiGLU, 2020s+)<br/>(Bilinear Multi-Path Routing)"]
 ```
 
 *   **The Binary Threshold Era (The Perceptron Dawn, 1958)**
