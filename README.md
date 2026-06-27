@@ -83,3 +83,14 @@ Deploying non-linear activations inside massive foundation scales introduces cri
 | [**Autoregressive LLM Base Pre-Training Blocks**](details/autoregressive_llm_pretraining.md) | 2020 | [GLU Variants Improve Transformer](https://arxiv.org/abs/2002.05202) | **Application:** Serves as the default non-linear computation engine inside state-of-the-art LLMs (e.g., Llama, Mistral, Gemma). Gated activations like **SwiGLU** prevent gradient saturation, allowing models to train stably over tens of trillions of tokens. |
 | [**Vision-Language Model Visual Grounding Pipelines**](details/vision_language_grounding.md) | 2023 | [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) | **Application:** Deployed within multi-modal transformers. Smooth activations like **GELU** process interleaved visual patch coordinates and text embeddings concurrently, maintaining sharp gradient trajectories during cross-attention alignment steps. |
 | [**Generative Diffusion & Flow Matching Latent Engines**](details/generative_diffusion_flow_matching.md) | 2022 | [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747) | **Application:** Powers high-fidelity pixel synthesis networks (such as FLUX.1 or Stable Diffusion 3.5). Non-monotonic activation scaling maps continuous Gaussian noise variables into linear ordinary differential equation (ODE) trajectories precisely, yielding crisp image details. |
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Activation-Function&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Activation-Function&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Activation-Function&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Activation-Function&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
