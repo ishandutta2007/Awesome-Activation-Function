@@ -1,11 +1,25 @@
-# Awesome-Activation-Function
-## Activation Functions in AI: Evolution, Variants, Types, & Applications
+<!--
+SEO Meta Description: A comprehensive and curated guide to modern activation functions in AI. Explores chronological evolution, functional variants, output normalization, production engineering challenges, and hardware solutions.
+SEO Keywords: Deep Learning, Activation Functions, Neural Networks, ReLU, SwiGLU, GELU, Sigmoid, Tanh, Softmax, Transformer, PyTorch, Triton
+-->
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Activation Functions Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+# 🧠 Awesome-Activation-Function
+
+## 🚀 Activation Functions in AI: Evolution, Variants, Types, & Applications
 
 Activation functions are fundamental mathematical operators embedded within the nodes of neural networks. They ingest the weighted sum of inputs and biases from the preceding layer and map it to an output activation vector. Crucially, activation functions introduce **non-linear transformation capabilities** into the network graph. Without non-linearity, a neural network—regardless of how many billions of layers it possesses—would collapse into a single, massive linear regression equation ($\hat{y} = Wx + b$), rendering it completely incapable of learning complex, high-dimensional data spaces such as images, natural language, or molecular arrays.
 
 ---
 
-## 1. The Chronological Evolution
+## 📅 1. The Chronological Evolution
 
 The technical progression of activation nodes has transitioned from rigid, binary step gates to piece-wise linear maps, smooth stochastic approximations, and high-capacity dual-tower gated linear transformations.
 
@@ -26,7 +40,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Structural Variants
+## 🧬 2. Core Functional & Structural Variants
 
 Activation functions are strictly categorized based on their mathematical continuity, symmetry, and feature-routing topologies.
 
@@ -39,7 +53,7 @@ Activation functions are strictly categorized based on their mathematical contin
 
 ---
 
-## 3. Terminal Output Normalization Layer Types
+## 🎯 3. Terminal Output Normalization Layer Types
 
 While hidden layer activations drive abstract feature representation learning, terminal activation layers normalize model outputs into actionable classification probabilities.
 
@@ -51,7 +65,7 @@ While hidden layer activations drive abstract feature representation learning, t
 
 ---
 
-## 4. Production Engineering Challenges & Hardware Solutions
+## 🛠️ 4. Production Engineering Challenges & Hardware Solutions
 
 Deploying non-linear activations inside massive foundation scales introduces critical system-level compute, memory, and compiler constraints.
 
@@ -62,7 +76,7 @@ Deploying non-linear activations inside massive foundation scales introduces cri
 
 ---
 
-## 5. Frontier Real-World AI Applications
+## 🌟 5. Frontier Real-World AI Applications
 
 | Application | Year | First Paper Link | Details |
 | :--- | :--- | :--- | :--- |
